@@ -8,17 +8,22 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="ScheduleHeader" parent="@style/AppTheme">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">16dp</item>
         <item name="android:textAlignment">center</item>
         <item name="android:fontFamily">@font/hack</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:background">@drawable/header_bg</item>
     </style>
     <style name="DaysHeader" parent="@style/AppTheme">
-        <item name="android:textSize">18sp</item>
         <item name="android:textAlignment">center</item>
         <item name="android:fontFamily">@font/hack</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:background">@drawable/days_bg</item>
+    </style>
+    <style name="DaysRow" parent="@style/AppTheme">
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/hack</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/days_row_bg</item>
     </style>
 </resources>

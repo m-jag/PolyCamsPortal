@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Background
+    <!-- Background Test
     <item>
         <shape android:shape="rectangle">
             <solid
@@ -8,24 +8,12 @@
                 android:color="@color/colorPrimary"/>
         </shape>
     </item> -->
-    <!-- Bottom Border
+    <!-- Bottom Border -->
     <item
         android:top="0dp"
         android:bottom="0dp"
-        android:left="-3dp"
-        android:right="-3dp">
-        <shape android:shape="rectangle">
-            <stroke
-                android:width="2dp"
-                android:color="@color/scheduleHeader"/>
-        </shape>
-    </item> -->
-    <!-- Side Border -->
-    <item
-        android:top="-1.5dp"
-        android:bottom="-1.5dp"
-        android:left="0dp"
-        android:right="0dp">
+        android:left="-1.5dp"
+        android:right="-1.5dp">
         <shape android:shape="rectangle">
             <stroke
                 android:width="0.5dp"
