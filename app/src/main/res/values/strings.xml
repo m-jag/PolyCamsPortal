@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PolyCamsPortal</string>
+    <!-- Login Screen -->
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="schedule_button">View Schedule</string>
+    <!-- Schedule Headers -->
+    <string name="time_header">Time</string>
+    <string name="course_header">Course</string>
+    <string name="room_header">Room</string>
+    <string name="instructor_header">Instructor</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Test -->
+    <!-- <item>
+        <shape android:shape="rectangle">
+            <solid
+                android:width="2dp"
+                android:color="@color/colorAccent"/>
+        </shape>
+    </item> -->
+    <!-- Bottom Border -->
+    <item
+        android:top="-3dp"
+        android:bottom="0dp"
+        android:left="-3dp"
+        android:right="-3dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="2dp"
+                android:color="@color/scheduleHeader"/>
+        </shape>
+    </item>
+    <!-- Side Border -->
+    <item
+        android:top="-1.5dp"
+        android:bottom="-1.5dp"
+        android:left="0dp"
+        android:right="0dp">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="0.5dp"
+                android:color="@color/scheduleHeader"/>
+        </shape>
+    </item>
+</layer-list>
