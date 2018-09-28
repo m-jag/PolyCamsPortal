@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Background
+    <!-- Background -->
     <item>
         <shape android:shape="rectangle">
             <solid
                 android:width="2dp"
-                android:color="@color/colorPrimary"/>
+                android:color="@color/dayHeaderBg"/>
         </shape>
-    </item> -->
-    <!-- Bottom Border
+    </item>
+    <!-- Top and Bottom Border -->
     <item
         android:top="0dp"
         android:bottom="0dp"
-        android:left="-3dp"
-        android:right="-3dp">
+        android:left="-2dp"
+        android:right="-2dp">
         <shape android:shape="rectangle">
             <stroke
-                android:width="2dp"
-                android:color="@color/scheduleHeader"/>
+                android:width="1dp"
+                android:color="@color/dayHeaderFg"/>
         </shape>
-    </item> -->
+    </item>
     <!-- Side Border -->
     <item
         android:top="-1.5dp"
@@ -29,7 +29,7 @@
         <shape android:shape="rectangle">
             <stroke
                 android:width="0.5dp"
-                android:color="@color/scheduleHeader"/>
+                android:color="@color/dayHeaderFg"/>
         </shape>
     </item>
 </layer-list>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Background Test -->
-    <!-- <item>
+    <item>
         <shape android:shape="rectangle">
             <solid
                 android:width="2dp"
-                android:color="@color/colorAccent"/>
+                android:color="@color/scheduleHeaderBg"/>
         </shape>
-    </item> -->
+    </item>
     <!-- Bottom Border -->
     <item
         android:top="-3dp"
@@ -17,7 +17,7 @@
         <shape android:shape="rectangle">
             <stroke
                 android:width="2dp"
-                android:color="@color/scheduleHeader"/>
+                android:color="@color/scheduleHeaderFg"/>
         </shape>
     </item>
     <!-- Side Border -->
@@ -29,7 +29,7 @@
         <shape android:shape="rectangle">
             <stroke
                 android:width="0.5dp"
-                android:color="@color/scheduleHeader"/>
+                android:color="@color/scheduleHeaderFg"/>
         </shape>
     </item>
 </layer-list>

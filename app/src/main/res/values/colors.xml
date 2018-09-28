@@ -4,5 +4,10 @@
     <color name="colorPrimaryDark">#522d8e</color>
     <color name="colorAccent">#A070D0</color>
     <color name="white">#fff</color>
-    <color name="scheduleHeader">#50ffffff</color>
+    <color name="scheduleHeaderFg">@color/colorPrimary</color>
+    <color name="scheduleHeaderBg">#ffffff</color>
+    <color name="dayHeaderFg">#ffffff</color>
+    <color name="dayHeaderBg">@color/colorPrimary</color>
+    <color name="dayRowFg">#ffffff</color>
+    <color name="dayRowBg">@color/colorPrimary</color>
 </resources>
