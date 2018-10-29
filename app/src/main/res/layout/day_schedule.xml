@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:stretchColumns="*"
     android:background="@color/colorPrimary">
+
     <TableRow
         style="@style/DaysRow"
         android:layout_width="match_parent"
@@ -42,6 +43,7 @@
             android:padding="3dp"
             />
     </TableRow>
+    <!--
     <TableRow
         android:weightSum="6"
         android:layout_width="match_parent"
@@ -272,4 +274,5 @@
             android:padding="3dp"
             />
     </TableRow>
+    -->
 </TableLayout>
