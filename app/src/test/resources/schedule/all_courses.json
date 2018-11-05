@@ -1,0 +1,4776 @@
+[
+  {
+    "department": "ACG",
+    "number": "2020",
+    "type": "I&T",
+    "title": "Accounting for Managers",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Smith, Edward",
+            "room": "IST-1065",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "AMH",
+    "number": "2010",
+    "type": "GESS",
+    "title": "United States History to 1877",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Luck, Patrick",
+            "room": "IST-1012",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Luck, Patrick",
+            "room": "IST-1012",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "AMH",
+    "number": "2020",
+    "type": "GESS",
+    "title": "American History Since 1877",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bruce, Amanda",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bruce, Amanda",
+            "room": "IST-1017",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "AMH",
+    "number": "2930",
+    "type": "GESS",
+    "title": "Special Topics in American History: American Popular Culture",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bruce, Amanda",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "ARH",
+    "number": "2000",
+    "type": "GEHUM",
+    "title": "Art Appreciation",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lowe, Vicki",
+            "room": "IST-1017",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lowe, Vicki",
+            "room": "IST-1017",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lowe, Vicki",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "BSC",
+    "number": "1010",
+    "type": "GENS",
+    "title": "Biology 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Horton, Melba",
+            "room": "IST-1065",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Horton, Melba",
+            "room": "IST-1065",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "BSC",
+    "number": "1010",
+    "type": "LGENS",
+    "title": "Biology 1 Laboratory",
+    "credits": 1,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Horton, Melba",
+            "room": "IST-1027",
+            "days": "M",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Horton, Melba",
+            "room": "IST-1027",
+            "days": "R",
+            "startTime": 57600,
+            "endTime": 64200
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Horton, Melba",
+            "room": "IST-1027",
+            "days": "R",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4052",
+    "type": "I&T",
+    "title": "Game Design and Development 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Towle Jr., Bradford",
+            "room": "IST-1045",
+            "days": "MWF",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4056",
+    "type": "I&T",
+    "title": "Game Design and Development 2",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Towle Jr., Bradford",
+            "room": "IST-1032",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4410",
+    "type": "I&T",
+    "title": "Computer Vision",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Abid, Muhammad",
+            "room": "IST-1003",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4612",
+    "type": "I&T",
+    "title": "Machine Learning",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Jaimes, Luis",
+            "room": "IST-1065",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Samarah, Mohammad",
+            "room": "IST-1065",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4630",
+    "type": "I&T",
+    "title": "Artificial Intelligence",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Yang, Feng-Jen",
+            "room": "IST-1012",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4733",
+    "type": "I&T",
+    "title": "Sr Capstone 1: Sys Acquisition, Integration & Implementation",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Steele, Robert",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "4830",
+    "type": "I&T",
+    "title": "Modeling and Simulation",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Akbas, Mustafa",
+            "room": "IST-1068",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CAP",
+    "number": "5771",
+    "type": "I&T",
+    "title": "Data Mining & Text Mining",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Steele, Robert",
+            "room": "IST-1015",
+            "days": "R",
+            "startTime": 68400,
+            "endTime": 78300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CDA",
+    "number": "2108",
+    "type": "I&T",
+    "title": "Introduction to Computer Systems",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sahawneh, Saleem",
+            "room": "IST-1048",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CDA",
+    "number": "3100",
+    "type": "I&T",
+    "title": "Computer Architecture",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Steele, Robert",
+            "room": "IST-1002",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CDA",
+    "number": "3631C",
+    "type": "I&T",
+    "title": "Embedded Operating Systems",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Foster, David",
+            "room": "IST-1048",
+            "days": "MW",
+            "startTime": 50400,
+            "endTime": 53400
+          },
+          {
+            "instructor": "Foster, David",
+            "room": "IST-1058",
+            "days": "T",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CDA",
+    "number": "4210",
+    "type": "I&T",
+    "title": "VLSI Design",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ullah, Muhammad",
+            "room": "IST-1003",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CEN",
+    "number": "4010",
+    "type": "ENGR",
+    "title": "Software Engineering",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Hamam, Abdelwahab",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CEN",
+    "number": "4088",
+    "type": "ENGR",
+    "title": "Software Security Testing",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Elish, Karim",
+            "room": "IST-1060",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CHM",
+    "number": "2045",
+    "type": "GENS",
+    "title": "Chemistry 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Green, Robert",
+            "room": "IST-1064",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Green, Robert",
+            "room": "IST-1064",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ballivian, Maria",
+            "room": "IST-1067",
+            "days": "MW",
+            "startTime": 54000,
+            "endTime": 58500
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Pushpika",
+            "room": "IST-1067",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Pushpika",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Green, Robert",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 54000,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CHM",
+    "number": "2045",
+    "type": "LGENS",
+    "title": "Chemistry 1 Laboratory",
+    "credits": 1,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ballivian, Maria",
+            "room": "IST-1052",
+            "days": "T",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ballivian, Maria",
+            "room": "IST-1052",
+            "days": "T",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sista, Venkata",
+            "room": "IST-1052",
+            "days": "W",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ballivian, Maria",
+            "room": "IST-1052",
+            "days": "W",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Pushpika",
+            "room": "IST-1052",
+            "days": "R",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Pushpika",
+            "room": "IST-1052",
+            "days": "R",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Pushpika",
+            "room": "IST-1052",
+            "days": "R",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 9,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sista, Venkata",
+            "room": "IST-1052",
+            "days": "F",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 10,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sista, Venkata",
+            "room": "IST-1052",
+            "days": "F",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CIS",
+    "number": "2005",
+    "type": "I&T",
+    "title": "Fundamentals of Applied Information",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Navarro, Christian",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CIS",
+    "number": "3301",
+    "type": "I&T",
+    "title": "Business Intelligence",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sanchez-Arias, Reinaldo",
+            "room": "IST-1002",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CIS",
+    "number": "4203",
+    "type": "I&T",
+    "title": "Digital Forensics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Gagneja, Kanwalinderjit",
+            "room": "IST-1058",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CIS",
+    "number": "4204",
+    "type": "I&T",
+    "title": "Ethical Hacking",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Patel, Ashokkumar",
+            "room": "IST-1062",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CIS",
+    "number": "4367",
+    "type": "I&T",
+    "title": "Computer Security",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Al-Nashif, Youssif",
+            "room": "IST-1032",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Elibol, Ercan",
+            "room": "IST-1012",
+            "days": "MW",
+            "startTime": 68400,
+            "endTime": 72900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CIS",
+    "number": "4369",
+    "type": "I&T",
+    "title": "Web Application Security",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Patel, Ashokkumar",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 54000,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "CNT",
+    "number": "3004C",
+    "type": "I&T",
+    "title": "Introduction to Computer Networks",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Akbas, Mustafa",
+            "room": "IST-1030",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 46200
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Akbas, Mustafa",
+            "room": "IST-1028",
+            "days": "TR",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Towle Jr., Bradford",
+            "room": "IST-1030",
+            "days": "MW",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sahawneh, Saleem",
+            "room": "IST-1032",
+            "days": "MW",
+            "startTime": 61200,
+            "endTime": 67800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "2271C",
+    "type": "I&T",
+    "title": "Introduction to Computation and Programming",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Gagneja, Kanwalinderjit",
+            "room": "IST-1032",
+            "days": "MW",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "2272C",
+    "type": "I&T",
+    "title": "Computer Programming 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ding, Wei",
+            "room": "IST-1028",
+            "days": "MW",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ding, Wei",
+            "room": "IST-1032",
+            "days": "MW",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Patel, Ashokkumar",
+            "room": "IST-1026",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 46200
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Patel, Ashokkumar",
+            "room": "IST-1032",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "3330C",
+    "type": "I&T",
+    "title": "Computer Programming 2",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Elish, Karim",
+            "room": "IST-1028",
+            "days": "MW",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Elish, Karim",
+            "room": "IST-1026",
+            "days": "MW",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "3353C",
+    "type": "I&T",
+    "title": "Introduction to Unix",
+    "credits": 2,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Navarro, Christian",
+            "room": "IST-1032",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Navarro, Christian",
+            "room": "IST-1028",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Navarro, Christian",
+            "room": "IST-1026",
+            "days": "TR",
+            "startTime": 46800,
+            "endTime": 51300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "3530",
+    "type": "I&T",
+    "title": "Data Structures & Algorithms",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sahawneh, Saleem",
+            "room": "IST-1015",
+            "days": "MWF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "3710",
+    "type": "I&T",
+    "title": "Database 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Samarah, Mohammad",
+            "room": "IST-1003",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "3729C",
+    "type": "I&T",
+    "title": "Database 2",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ready, Ray",
+            "room": "IST-1064",
+            "days": "M",
+            "startTime": 64800,
+            "endTime": 77400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "3834C",
+    "type": "I&T",
+    "title": "Web Application Development",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ding, Wei",
+            "room": "IST-1026",
+            "days": "WF",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4020",
+    "type": "I&T",
+    "title": "Programming Languages",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Abid, Muhammad",
+            "room": "IST-1065",
+            "days": "MWF",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4415",
+    "type": "I&T",
+    "title": "Data Structures",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Khoshavi Najafabadi, Navid",
+            "room": "IST-1002",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4520",
+    "type": "I&T",
+    "title": "Introduction to Parallel and Distributed Computing",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Samarah, Mohammad",
+            "room": "IST-1017",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4531",
+    "type": "I&T",
+    "title": "Algorithm  Design & Analysis",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Topsakal, Oguzhan",
+            "room": "IST-1002",
+            "days": "MWF",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Abid, Muhammad",
+            "room": "IST-1049",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4610",
+    "type": "I&T",
+    "title": "Operating Systems Concepts",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Jaimes, Luis",
+            "room": "IST-1017",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Jaimes, Luis",
+            "room": "IST-1045",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4656",
+    "type": "I&T",
+    "title": "Mobile Device Applications",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Topsakal, Oguzhan",
+            "room": "IST-1026",
+            "days": "MWF",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "4934C",
+    "type": "I&T",
+    "title": "Senior Design I",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Topsakal, Oguzhan",
+            "room": "IST-1030",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Yang, Feng-Jen",
+            "room": "IST-1028",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 51600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Yang, Feng-Jen",
+            "room": "IST-1026",
+            "days": "TR",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "5090",
+    "type": "I&T",
+    "title": "Scientific Computation and Programming",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sanchez-Arias, Reinaldo",
+            "room": "IST-1002",
+            "days": "M",
+            "startTime": 68400,
+            "endTime": 78300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "COP",
+    "number": "5727",
+    "type": "I&T",
+    "title": "Advanced Database Development",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Samarah, Mohammad",
+            "room": "IST-1012",
+            "days": "T",
+            "startTime": 68400,
+            "endTime": 78300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "ECO",
+    "number": "2023",
+    "type": "GESS",
+    "title": "Principles of Microeconomics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Smith, Edward",
+            "room": "IST-1049",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "ECP",
+    "number": "4031",
+    "type": "I&T",
+    "title": "Benefit Cost Analysis",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Dewey, Jim",
+            "room": "IST-1002",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "number": "3310",
+    "type": "ENGR",
+    "title": "Digital Electronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sargolzaei, Arman",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "number": "4350",
+    "type": "ENGR",
+    "title": "Physical Electronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mahmood, Hisham",
+            "room": "IST-1015",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "number": "4351",
+    "type": "ENGR",
+    "title": "Electronic Devices",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Integlia, Ryan",
+            "room": "IST-1049",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "number": "4510",
+    "type": "ENGR",
+    "title": "Digital Signal Processing",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Toker, Onur",
+            "room": "IST-1067",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "number": "4531",
+    "type": "ENGR",
+    "title": "Techniques for High Fidelity Signal Acquisition",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sargolzaei, Arman",
+            "room": "IST-1017",
+            "days": "TR",
+            "startTime": 63000,
+            "endTime": 67500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEE",
+    "number": "5507",
+    "type": "ENGR",
+    "title": "Advanced Digital Signal Processing",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Toker, Onur",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "3111C",
+    "type": "ENGR",
+    "title": "Circuits 1",
+    "credits": 4,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Vargas, Jorge",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          },
+          {
+            "instructor": "Vargas, Jorge",
+            "room": "IST-1056",
+            "days": "W",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Vargas, Jorge",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          },
+          {
+            "instructor": "Vargas, Jorge",
+            "room": "IST-1056",
+            "days": "F",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Amjadi, Zahra",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 28800,
+            "endTime": 31800
+          },
+          {
+            "instructor": "Amjadi, Zahra",
+            "room": "IST-1056",
+            "days": "R",
+            "startTime": 28800,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Amjadi, Zahra",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 28800,
+            "endTime": 31800
+          },
+          {
+            "instructor": "Amjadi, Zahra",
+            "room": "IST-1056",
+            "days": "R",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "3112C",
+    "type": "ENGR",
+    "title": "Circuits 2",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Alsweiss, Suleiman",
+            "room": "IST-1056",
+            "days": "M",
+            "startTime": 36000,
+            "endTime": 42600
+          },
+          {
+            "instructor": "Alsweiss, Suleiman",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 37200
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Alsweiss, Suleiman",
+            "room": "IST-1056",
+            "days": "M",
+            "startTime": 46800,
+            "endTime": 53400
+          },
+          {
+            "instructor": "Alsweiss, Suleiman",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 37200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "3135",
+    "type": "ENGR",
+    "title": "Systems and Signals",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Alsweiss, Suleiman",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "3287",
+    "type": "ENGR",
+    "title": "Renewable Energy and Sustainability",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Integlia, Ryan",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 54000,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "3477",
+    "type": "ENGR",
+    "title": "Magnetics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Amjadi, Zahra",
+            "room": "IST-1017",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "3702C",
+    "type": "ENGR",
+    "title": "Digital Logic Design",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Foster, David",
+            "room": "IST-1049",
+            "days": "MW",
+            "startTime": 28800,
+            "endTime": 31800
+          },
+          {
+            "instructor": "Foster, David",
+            "room": "IST-1056",
+            "days": "T",
+            "startTime": 28800,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Foster, David",
+            "room": "IST-1049",
+            "days": "MW",
+            "startTime": 28800,
+            "endTime": 31800
+          },
+          {
+            "instructor": "Foster, David",
+            "room": "IST-1056",
+            "days": "R",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ullah, Muhammad",
+            "room": "IST-1064",
+            "days": "MW",
+            "startTime": 36000,
+            "endTime": 39000
+          },
+          {
+            "instructor": "Ullah, Muhammad",
+            "room": "IST-1056",
+            "days": "M",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ullah, Muhammad",
+            "room": "IST-1064",
+            "days": "MW",
+            "startTime": 36000,
+            "endTime": 39000
+          },
+          {
+            "instructor": "Ullah, Muhammad",
+            "room": "IST-1056",
+            "days": "W",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4220",
+    "type": "ENGR",
+    "title": "Electronic Motor Control",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mahmood, Hisham",
+            "room": "IST-1067",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4242",
+    "type": "ENGR",
+    "title": "Power Electronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Rashid, Muhammad",
+            "room": "IST-1002",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4251",
+    "type": "ENGR",
+    "title": "Power System Analysis",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mahmood, Hisham",
+            "room": "IST-1003",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4448",
+    "type": "ENGR",
+    "title": "Optoelectronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Integlia, Ryan",
+            "room": "IST-1026",
+            "days": "MWF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4515",
+    "type": "ENGR",
+    "title": "Digital Communication Systems",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Chintakunta, Harish",
+            "room": "IST-1003",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4652",
+    "type": "ENGR",
+    "title": "Control Theory",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sargolzaei, Arman",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4746C",
+    "type": "ENGR",
+    "title": "Microcomputers",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Al-Nashif, Youssif",
+            "room": "IST-1058",
+            "days": "M",
+            "startTime": 36000,
+            "endTime": 42600
+          },
+          {
+            "instructor": "Al-Nashif, Youssif",
+            "room": "IST-1058",
+            "days": "WF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4768C",
+    "type": "ENGR",
+    "title": "Computer Architecture and Organization",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Khoshavi Najafabadi, Navid",
+            "room": "IST-1015",
+            "days": "MW",
+            "startTime": 36000,
+            "endTime": 39000
+          },
+          {
+            "instructor": "Khoshavi Najafabadi, Navid",
+            "room": "IST-1032",
+            "days": "F",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Chandrasekaran, Balasubramaniyan",
+            "room": "IST-1003",
+            "days": "MW",
+            "startTime": 28800,
+            "endTime": 31800
+          },
+          {
+            "instructor": "Chandrasekaran, Balasubramaniyan",
+            "room": "IST-1030",
+            "days": "F",
+            "startTime": 28800,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4914C",
+    "type": "ENGR",
+    "title": "Senior Design 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Toker, Onur",
+            "room": "IST-1014",
+            "days": "MW",
+            "startTime": 43200,
+            "endTime": 46200
+          },
+          {
+            "instructor": "Toker, Onur",
+            "room": "IST-1015",
+            "days": "F",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "4XXXC",
+    "type": "ENGR",
+    "title": "Kinematics and Control of Robotic Systems",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Chandrasekaran, Balasubramaniyan",
+            "room": "IST-1030",
+            "days": "MW",
+            "startTime": 36000,
+            "endTime": 39000
+          },
+          {
+            "instructor": "Chandrasekaran, Balasubramaniyan",
+            "room": "IST-1030",
+            "days": "W",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "5235",
+    "type": "ENGR",
+    "title": "Electronic Motor Control",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mahmood, Hisham",
+            "room": "IST-1067",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "5245",
+    "type": "ENGR",
+    "title": "Power Electronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Rashid, Muhammad",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 61200,
+            "endTime": 65700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "5457",
+    "type": "ENGR",
+    "title": "Advanced Optoelectronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Integlia, Ryan",
+            "room": "IST-1026",
+            "days": "MWF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EEL",
+    "number": "5746C",
+    "type": "ENGR",
+    "title": "Microcomputers",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Al-Nashif, Youssif",
+            "room": "IST-1058",
+            "days": "M",
+            "startTime": 36000,
+            "endTime": 42600
+          },
+          {
+            "instructor": "Al-Nashif, Youssif",
+            "room": "IST-1058",
+            "days": "WF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "2001C",
+    "type": "ENGR",
+    "title": "Sophomore Design Skills",
+    "credits": 2,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1028",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 39000
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1028",
+            "days": "T",
+            "startTime": 39600,
+            "endTime": 44400
+          },
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1017",
+            "days": "R",
+            "startTime": 39600,
+            "endTime": 44400
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1030",
+            "days": "T",
+            "startTime": 50400,
+            "endTime": 55200
+          },
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1062",
+            "days": "R",
+            "startTime": 50400,
+            "endTime": 55200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "3015C",
+    "type": "ENGR",
+    "title": "Mechanical Lab Design 1",
+    "credits": 2,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Soltani, Seyed",
+            "room": "IST-1026",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 39000
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Drake, Christina",
+            "room": "IST-1017",
+            "days": "T",
+            "startTime": 39600,
+            "endTime": 44400
+          },
+          {
+            "instructor": "Drake, Christina",
+            "room": "IST-1028",
+            "days": "R",
+            "startTime": 39600,
+            "endTime": 44400
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Romero-Ramirez, Edwar",
+            "room": "IST-1062",
+            "days": "T",
+            "startTime": 50400,
+            "endTime": 55200
+          },
+          {
+            "instructor": "Romero-Ramirez, Edwar",
+            "room": "IST-1030",
+            "days": "R",
+            "startTime": 50400,
+            "endTime": 55200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "3311",
+    "type": "ENGR",
+    "title": "Statics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Shedd, Timothy",
+            "room": "IST-1015",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Coughlin, Christopher",
+            "room": "IST-1002",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "3331",
+    "type": "ENGR",
+    "title": "Strength of Materials",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Soltani, Seyed",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "3343",
+    "type": "ENGR",
+    "title": "Engineering Thermodynamics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Park, Younggil",
+            "room": "IST-1045",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Park, Younggil",
+            "room": "IST-1045",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "3365",
+    "type": "ENGR",
+    "title": "Structure and Properties of Materials",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Matyi, Richard",
+            "room": "IST-1048",
+            "days": "MWF",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGN",
+    "number": "4350C",
+    "type": "ENGR",
+    "title": "Finite Element Analysis in Mechanical Engineering",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Soltani, Seyed",
+            "room": "IST-1015",
+            "days": "MW",
+            "startTime": 39600,
+            "endTime": 42600
+          },
+          {
+            "instructor": "Soltani, Seyed",
+            "room": "IST-1028",
+            "days": "F",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EGS",
+    "number": "3625",
+    "type": "ENGR",
+    "title": "Engineering & Technology Project Management",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Shaikh, Shoaib",
+            "room": "IST-1060",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Shaikh, Shoaib",
+            "room": "IST-1003",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EIN",
+    "number": "3390",
+    "type": "ENGR",
+    "title": "Manufacturing Processes and Materials",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Vollaro, Mary",
+            "room": "IST-1002",
+            "days": "MW",
+            "startTime": 54000,
+            "endTime": 58800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EMA",
+    "number": "3083",
+    "type": "ENGR",
+    "title": "Fundamentals of Nanomaterials and Nanotechnology",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Matyi, Richard",
+            "room": "IST-1003",
+            "days": "MW",
+            "startTime": 59400,
+            "endTime": 63900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EMA",
+    "number": "30XX",
+    "type": "ENGR",
+    "title": "Introduction to Inorganic Materials",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Drake, Christina",
+            "room": "IST-1045",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EMA",
+    "number": "3530C",
+    "type": "ENGR",
+    "title": "Introduction to Instrumentation and Characterization",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Drake, Christina",
+            "room": "IST-1003",
+            "days": "M",
+            "startTime": 50400,
+            "endTime": 57000
+          },
+          {
+            "instructor": "Drake, Christina",
+            "room": "IST-1021",
+            "days": "W",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EML",
+    "number": "3015",
+    "type": "ENGR",
+    "title": "Fluid Mechanics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Shedd, Timothy",
+            "room": "IST-1002",
+            "days": "MW",
+            "startTime": 59400,
+            "endTime": 63900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EML",
+    "number": "3303C",
+    "type": "ENGR",
+    "title": "Mechatronics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1003",
+            "days": "MW",
+            "startTime": 32400,
+            "endTime": 35400
+          },
+          {
+            "instructor": "Morris, Melissa",
+            "room": "IST-1028",
+            "days": "F",
+            "startTime": 28800,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EML",
+    "number": "4140",
+    "type": "ENGR",
+    "title": "Heat Transfer",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Park, Younggil",
+            "room": "IST-1065",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EML",
+    "number": "4501C",
+    "type": "ENGR",
+    "title": "Engineering Design Senior Capstone 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Park, Younggil",
+            "room": "IST-1000",
+            "days": "M",
+            "startTime": 50400,
+            "endTime": 53400
+          },
+          {
+            "instructor": "Park, Younggil",
+            "room": "IST-1062",
+            "days": "WF",
+            "startTime": 28800,
+            "endTime": 33600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EML",
+    "number": "4532C",
+    "type": "ENGR",
+    "title": "Advanced Nanoscale Instrumentation and Characterization",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Matyi, Richard",
+            "room": "IST-1060",
+            "days": "T",
+            "startTime": 55800,
+            "endTime": 62100
+          },
+          {
+            "instructor": "Matyi, Richard",
+            "room": "IST-1060",
+            "days": "R",
+            "startTime": 55800,
+            "endTime": 62100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "EML",
+    "number": "45xx",
+    "type": "ENGR",
+    "title": "Design and Analysis of Machine Components",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Romero-Ramirez, Edwar",
+            "room": "IST-1015",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "ENC",
+    "number": "1101",
+    "type": "GEENG",
+    "title": "English Comp. 1: Expository and Argumentative",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Freeman, Heather",
+            "room": "IST-1062",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Freeman, Heather",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Freeman, Heather",
+            "room": "IST-1060",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lagamba, Jonette",
+            "room": "IST-1060",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Tucker, Nann",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Tucker, Nann",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 8,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lagamba, Jonette",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      },
+      {
+        "section": 10,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Tucker, Nann",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      },
+      {
+        "section": 11,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Tucker, Nann",
+            "room": "IST-1017",
+            "days": "MWF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "ENC",
+    "number": "2210",
+    "type": "GEENG",
+    "title": "Technical Writing",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Kelly, Elizabeth",
+            "room": "IST-1068",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Kelly, Elizabeth",
+            "room": "IST-1003",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Kelly, Elizabeth",
+            "room": "IST-1017",
+            "days": "MWF",
+            "startTime": 54000,
+            "endTime": 57000
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Tucker, Nann",
+            "room": "IST-1014",
+            "days": "MWF",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "ENT",
+    "number": "2112",
+    "type": "I&T",
+    "title": "Entrepreneurial Opportunity Analysis",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mennie, Jim",
+            "room": "IST-1068",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "HIM",
+    "number": "4016",
+    "type": "I&T",
+    "title": "Policy Issues in Health Informatics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "LeFrancois, Susan",
+            "room": "IST-1002",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "HUM",
+    "number": "2022",
+    "type": "GEHUM",
+    "title": "Explorations in the Humanities",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lenz, Christopher",
+            "room": "IST-1062",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "IDS",
+    "number": "1380",
+    "type": "ENGR",
+    "title": "Introduction to STEM",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sukhraj, Indira",
+            "room": "IST-1017",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Chintakunta, Harish",
+            "room": "IST-1068",
+            "days": "MW",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Coughlin, Christopher",
+            "room": "IST-1045",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Toker, Onur",
+            "room": "IST-1060",
+            "days": "MW",
+            "startTime": 54000,
+            "endTime": 58500
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sahawneh, Saleem",
+            "room": "IST-1002",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Coughlin, Christopher",
+            "room": "IST-1068",
+            "days": "MW",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      },
+      {
+        "section": 8,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Infante, Jhojana",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      },
+      {
+        "section": 9,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Navarro, Christian",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 61200,
+            "endTime": 65700
+          }
+        ]
+      },
+      {
+        "section": 10,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sahawneh, Saleem",
+            "room": "IST-1014",
+            "days": "TR",
+            "startTime": 66600,
+            "endTime": 71100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "IDS",
+    "number": "2144",
+    "type": "ENGR",
+    "title": "Legal, Ethical, and Management Issues in Technology",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "LeFrancois, Susan",
+            "room": "IST-1068",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "LeFrancois, Susan",
+            "room": "IST-1012",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mennie, Jim",
+            "room": "IST-1015",
+            "days": "MW",
+            "startTime": 61200,
+            "endTime": 65700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "IDS",
+    "number": "5950",
+    "type": "I&T",
+    "title": "Project",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sanchez-Arias, Reinaldo",
+            "room": "No Location Required",
+            "days": "",
+            "startTime": 60,
+            "endTime": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAC",
+    "number": "1147",
+    "type": "GEMTH",
+    "title": "Precalculus Algebra/Trigonometry",
+    "credits": 4,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Norton, Dennis",
+            "room": "IST-1044",
+            "days": "MWRF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Burbank, Dean",
+            "room": "IST-1044",
+            "days": "MWRF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Fouad, Emadelden",
+            "room": "IST-1044",
+            "days": "MTWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Norton, Dennis",
+            "room": "IST-1044",
+            "days": "MTWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAC",
+    "number": "2311",
+    "type": "GEMTH",
+    "title": "Analytic Geometry and Calculus 1",
+    "credits": 4,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Norton, Dennis",
+            "room": "IST-1048",
+            "days": "MTWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Norton, Dennis",
+            "room": "IST-1044",
+            "days": "MTWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Fouad, Emadelden",
+            "room": "IST-1048",
+            "days": "MTWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bunn, Jared",
+            "room": "IST-1012",
+            "days": "MWRF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Liu, Xuebo",
+            "room": "IST-1048",
+            "days": "MWRF",
+            "startTime": 54000,
+            "endTime": 57000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAC",
+    "number": "2312",
+    "type": "GEMTH",
+    "title": "Analytic Geometry and Calculus 2",
+    "credits": 4,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Burbank, Dean",
+            "room": "IST-1065",
+            "days": "MTWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Burbank, Dean",
+            "room": "IST-1048",
+            "days": "MWRF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Don",
+            "room": "IST-1048",
+            "days": "MWRF",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAC",
+    "number": "2313",
+    "type": "GEMTH",
+    "title": "Analytic Geometry and Calculus 3",
+    "credits": 4,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Liu, Xuebo",
+            "room": "IST-1044",
+            "days": "MWRF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Kim, Myles",
+            "room": "IST-1048",
+            "days": "MTRF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bowers, Abigail",
+            "room": "IST-1045",
+            "days": "MWRF",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAD",
+    "number": "2104",
+    "type": "GEMTH",
+    "title": "Discrete Mathematics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bunn, Jared",
+            "room": "IST-1015",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bunn, Jared",
+            "room": "IST-1049",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bowers, Abigail",
+            "room": "IST-1068",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bowers, Abigail",
+            "room": "IST-1044",
+            "days": "TR",
+            "startTime": 61200,
+            "endTime": 65700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAN",
+    "number": "2591",
+    "type": "I&T",
+    "title": "Introduction to Operations and Supply Chain Management",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ardakani, Mostafa",
+            "room": "IST-1017",
+            "days": "MWF",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAN",
+    "number": "3520",
+    "type": "I&T",
+    "title": "Six Sigma",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Fico, John",
+            "room": "IST-1002",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAN",
+    "number": "3610",
+    "type": "I&T",
+    "title": "Global Logistics Management",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mennie, Jim",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAN",
+    "number": "4522",
+    "type": "I&T",
+    "title": "Planning and Control Systems for Supply Chain Management",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Shaikh, Shoaib",
+            "room": "IST-1015",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAN",
+    "number": "4593",
+    "type": "I&T",
+    "title": "National Transportation Management",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ardakani, Mostafa",
+            "room": "IST-1017",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAP",
+    "number": "2302",
+    "type": "ENGR",
+    "title": "Differential Equations",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Don",
+            "room": "IST-1049",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Don",
+            "room": "IST-1049",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAP",
+    "number": "5436",
+    "type": "ENGR",
+    "title": "Applied Math for Engineers",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Alnaser, Ala' Jamil",
+            "room": "IST-1012",
+            "days": "TR",
+            "startTime": 45000,
+            "endTime": 49500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAS",
+    "number": "3105",
+    "type": "GEMTH",
+    "title": "Linear Algebra",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Kim, Myles",
+            "room": "IST-1049",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "MAS",
+    "number": "3114",
+    "type": "GEMTH",
+    "title": "Computational Linear Algebra",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Bowers, Abigail",
+            "room": "IST-1003",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Katugampola, Don",
+            "room": "IST-1045",
+            "days": "TR",
+            "startTime": 61200,
+            "endTime": 65700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "PHI",
+    "number": "2010",
+    "type": "GEHUM",
+    "title": "Introduction to Philosophy",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Clinton, Steve",
+            "room": "IST-1062",
+            "days": "TR",
+            "startTime": 28800,
+            "endTime": 33300
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Clinton, Steve",
+            "room": "IST-1060",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "PHY",
+    "number": "2048",
+    "type": "GENS",
+    "title": "Physics 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Parchamy, Homaira",
+            "room": "IST-1067",
+            "days": "TR",
+            "startTime": 34200,
+            "endTime": 38700
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Fouad, Emadelden",
+            "room": "IST-1002",
+            "days": "MWF",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Astley, Victoria",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Austin, Robert",
+            "room": "IST-1068",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "PHY",
+    "number": "2048",
+    "type": "LGENS",
+    "title": "Physics 1 Laboratory",
+    "credits": 1,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ramamourty, Manimegalai",
+            "room": "IST-1051",
+            "days": "R",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Astley, Victoria",
+            "room": "IST-1051",
+            "days": "T",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Ramamourty, Manimegalai",
+            "room": "IST-1051",
+            "days": "W",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "PHY",
+    "number": "2049",
+    "type": "GENS",
+    "title": "Physics 2",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Austin, Robert",
+            "room": "IST-1064",
+            "days": "TR",
+            "startTime": 63000,
+            "endTime": 67500
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Srinivasan, Sesha",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Srinivasan, Sesha",
+            "room": "IST-1064",
+            "days": "MWF",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Astley, Victoria",
+            "room": "IST-1067",
+            "days": "MWF",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Austin, Robert",
+            "room": "IST-1064",
+            "days": "TR",
+            "startTime": 50400,
+            "endTime": 54900
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Kryger, Robert",
+            "room": "IST-1064",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "PHY",
+    "number": "2049",
+    "type": "LGENS",
+    "title": "Physics 2 Laboratory",
+    "credits": 1,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Srinivasan, Sesha",
+            "room": "IST-1053",
+            "days": "W",
+            "startTime": 43200,
+            "endTime": 49800
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sorloaica-Hickman, Nicoleta",
+            "room": "IST-1053",
+            "days": "T",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Fouad, Emadelden",
+            "room": "IST-1053",
+            "days": "T",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Astley, Victoria",
+            "room": "IST-1053",
+            "days": "R",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sorloaica-Hickman, Nicoleta",
+            "room": "IST-1053",
+            "days": "W",
+            "startTime": 36000,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 8,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Astley, Victoria",
+            "room": "IST-1053",
+            "days": "R",
+            "startTime": 54000,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 9,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Austin, Robert",
+            "room": "IST-1053",
+            "days": "W",
+            "startTime": 50400,
+            "endTime": 57000
+          }
+        ]
+      },
+      {
+        "section": 12,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Srinivasan, Sesha",
+            "room": "IST-1053",
+            "days": "F",
+            "startTime": 46800,
+            "endTime": 53400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "PSY",
+    "number": "2012",
+    "type": "GESS",
+    "title": "General Psychology",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Mortimer, D. Cleve",
+            "room": "IST-1062",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "QMB",
+    "number": "3200",
+    "type": "I&T",
+    "title": "Advanced Quantitative Methods",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Dewey, Jim",
+            "room": "IST-1003",
+            "days": "TR",
+            "startTime": 63000,
+            "endTime": 67500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "QMB",
+    "number": "5565",
+    "type": "ENGR",
+    "title": "Quantitative Empirical Research Methods",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Sanchez-Arias, Reinaldo",
+            "room": "IST-1048",
+            "days": "TR",
+            "startTime": 63000,
+            "endTime": 67500
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "SLS",
+    "number": "1106",
+    "type": "GE",
+    "title": "Academic and Professional Skills",
+    "credits": 1,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1062",
+            "days": "M",
+            "startTime": 28800,
+            "endTime": 31800
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1062",
+            "days": "M",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1062",
+            "days": "M",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      },
+      {
+        "section": 4,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1062",
+            "days": "M",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 5,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1048",
+            "days": "T",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 6,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Luck, Patrick",
+            "room": "IST-1048",
+            "days": "T",
+            "startTime": 55800,
+            "endTime": 58800
+          }
+        ]
+      },
+      {
+        "section": 7,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1049",
+            "days": "T",
+            "startTime": 63000,
+            "endTime": 66000
+          }
+        ]
+      },
+      {
+        "section": 9,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lagamba, Jonette",
+            "room": "IST-1014",
+            "days": "W",
+            "startTime": 57600,
+            "endTime": 60600
+          }
+        ]
+      },
+      {
+        "section": 10,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lagamba, Jonette",
+            "room": "IST-1014",
+            "days": "W",
+            "startTime": 61200,
+            "endTime": 64200
+          }
+        ]
+      },
+      {
+        "section": 11,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Luck, Patrick",
+            "room": "IST-1067",
+            "days": "W",
+            "startTime": 46800,
+            "endTime": 49800
+          }
+        ]
+      },
+      {
+        "section": 13,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lagamba, Jonette",
+            "room": "IST-1065",
+            "days": "R",
+            "startTime": 39600,
+            "endTime": 42600
+          }
+        ]
+      },
+      {
+        "section": 14,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lagamba, Jonette",
+            "room": "IST-1048",
+            "days": "R",
+            "startTime": 50400,
+            "endTime": 53400
+          }
+        ]
+      },
+      {
+        "section": 17,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1049",
+            "days": "F",
+            "startTime": 32400,
+            "endTime": 35400
+          }
+        ]
+      },
+      {
+        "section": 18,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Lee, Jennifer",
+            "room": "IST-1062",
+            "days": "F",
+            "startTime": 36000,
+            "endTime": 39000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "STA",
+    "number": "2023",
+    "type": "GEMTH",
+    "title": "Statistics 1",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Vadlamani, Sravani",
+            "room": "IST-1045",
+            "days": "MWF",
+            "startTime": 43200,
+            "endTime": 46200
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Calkins, Kevin",
+            "room": "IST-1045",
+            "days": "MWF",
+            "startTime": 54000,
+            "endTime": 57000
+          }
+        ]
+      },
+      {
+        "section": 3,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Calkins, Kevin",
+            "room": "IST-1049",
+            "days": "MW",
+            "startTime": 59400,
+            "endTime": 63900
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "department": "STA",
+    "number": "3032",
+    "type": "GEMTH",
+    "title": "Probability and Statistics",
+    "credits": 3,
+    "sections": [
+      {
+        "section": 1,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Alnaser, Ala' Jamil",
+            "room": "IST-1045",
+            "days": "TR",
+            "startTime": 55800,
+            "endTime": 60300
+          }
+        ]
+      },
+      {
+        "section": 2,
+        "startDate": 1534910400,
+        "endDate": 1543986000,
+        "sessions": [
+          {
+            "instructor": "Alnaser, Ala' Jamil",
+            "room": "IST-1045",
+            "days": "TR",
+            "startTime": 39600,
+            "endTime": 44100
+          }
+        ]
+      }
+    ]
+  }
+]

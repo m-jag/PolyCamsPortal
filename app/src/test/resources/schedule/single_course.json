@@ -1,0 +1,23 @@
+{
+  "department": "COP",
+  "number": "4656",
+  "type": "I&T",
+  "title": "Mobile Device Applications",
+  "credits": 3,
+  "sections": [
+    {
+      "section": 1,
+      "startDate": 1534910400,
+      "endDate": 1543986000,
+      "sessions": [
+        {
+          "instructor": "Topsakal, Oguzhan",
+          "room": "IST-1026",
+          "days": "MWF",
+          "startTime": 28800,
+          "endTime": 31800
+        }
+      ]
+    }
+  ]
+}
