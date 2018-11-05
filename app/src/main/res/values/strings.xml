@@ -6,9 +6,29 @@
     <string name="password_hint">Password</string>
     <string name="login_button">Login</string>
     <string name="schedule_button">View Schedule</string>
+    <string name="settings_button">Settings</string>
+
+    <!-- Setting Screen-->
+    <string name="settings_name">Register</string>
+    <string name="color_settings_button">Color Settings</string>
+    <string name="font_size_button">Font Size</string>
+
+    <!-- Register Screen-->
+    <string name="register_name">Register</string>
+    <string name="register_button">Register</string>
+    <string name="cancel_button">Cancel</string>
+
     <!-- Schedule Headers -->
     <string name="time_header">Time</string>
     <string name="course_header">Course</string>
     <string name="room_header">Room</string>
     <string name="instructor_header">Instructor</string>
+    <string name="day_header">Days</string>
+
+    <!--Course Info Headers -->
+    <string name="department_header">Department</string>
+    <string name="prerequisites_header">Prerequisites</string>
+    <string name="corequisites_header">Corequisites</string>
+    <string name="section_header">Section</string>
+
 </resources>
