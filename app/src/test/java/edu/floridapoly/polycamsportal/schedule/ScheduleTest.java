@@ -133,6 +133,26 @@ public final class ScheduleTest {
         )
     );
 
+    private static final Course COURSE_MECHATRONICS = new Course(
+        "Mechatronics", "EML", "3303C", "ENGR", 3,
+        Arrays.asList(
+            new CourseSection(
+                1,
+                new LocalDate(2018, 8, 22),
+                new LocalDate(2018, 12, 5),
+                Arrays.asList(
+                    new CourseSession(
+                        "Morris, Melissa", "IST-1003", DaySet.MW,
+                        new LocalTime(9, 0), new LocalTime(9, 50)
+                    ),
+                    new CourseSession(
+                        "Morris, Melissa", "IST-1028", DaySet.F,
+                        new LocalTime(8, 0), new LocalTime(9, 50)
+                    )
+                )
+            )
+        )
+    );
 
     @Test
     public void noCoursesNoSchedules() {
@@ -141,9 +161,19 @@ public final class ScheduleTest {
     }
 
     @Test
-    public void noSectionsNoSchedules() {
+    public void conflictsGeneratesNoSchedules() {
         assertThat(Schedule.generateSchedules(Arrays.asList(
-            COURSE_MOBILE_APPS, COURSE_PROG_2, COURSE_CIRCUITS_2, COURSE_PROB_STAT
+            COURSE_MOBILE_APPS, COURSE_MECHATRONICS
+        )), is(Collections.<Schedule>emptyList()));
+    }
+
+    @Test
+    public void generatesCorrectSchedules() {
+        // If it generates the proper number for a few test cases, it is
+        // probably correct.
+        assertThat(Schedule.generateSchedules(Arrays.asList(
+            COURSE_MOBILE_APPS, COURSE_PROG_2,
+            COURSE_CIRCUITS_2, COURSE_PROB_STAT
         )).size(), is(2));
     }
 
