@@ -27,7 +27,7 @@ public class Course {
         this.number = number;
         this.type = type;
         this.credits = credits;
-        this.sections = sections;
+        this.setSections(sections);
     }
 
     public String getTitle() {
@@ -68,8 +68,10 @@ public class Course {
      */
     @SuppressWarnings("unused")
     private void setSections(List<CourseSection> sections) {
-        for (CourseSection section : sections) {
-            section.setCourse(this);
+        if (sections != null) {
+            for (CourseSection section : sections) {
+                section.setCourse(this);
+            }
         }
 
         this.sections = sections;
