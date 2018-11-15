@@ -7,12 +7,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="DaysRow" parent="@style/AppTheme">
         <item name="android:textAlignment">center</item>
         <item name="android:fontFamily">@font/hack</item>
         <item name="android:textColor">@color/dayRowFg</item>
         <item name="android:background">@color/dayRowBg</item>
     </style>
+
     <style name="DaysHeader" parent="@style/DaysRow">
         <item name="android:background">@drawable/cell_with_border</item>
     </style>
