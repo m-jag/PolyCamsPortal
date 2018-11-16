@@ -10,8 +10,17 @@
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="24dp"
+        android:padding="10dp"
         android:weightSum="4">
+        <!-- Course Name -->
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="@string/course_header"/>
+
         <!-- Department -->
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,15 +28,21 @@
             android:layout_gravity="fill_horizontal"
             android:layout_margin="5dp"
             android:orientation="vertical"
-            android:padding="24dp"
+            android:padding="10dp"
             android:weightSum="4">
 
-            <android.support.v7.widget.AppCompatTextView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/hack"
                 android:text="@string/department_header"
-                android:textStyle="bold"></android.support.v7.widget.AppCompatTextView>
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/course_department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
 
         </LinearLayout>
 
@@ -35,34 +50,54 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="fill_horizontal"
-            android:orientation="vertical"
-            android:padding="24dp"
-            android:weightSum="4">
+            android:weightSum="2"
+            android:orientation="horizontal">
 
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/hack"
-                android:text="@string/prerequisites_header"
-                android:textStyle="bold" />
-        </LinearLayout>
+                android:layout_gravity="fill_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="4">
 
-        <!--Corequisites -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="fill_horizontal"
-            android:orientation="vertical"
-            android:padding="24dp"
-            android:weightSum="4">
-
-            <android.support.v7.widget.AppCompatTextView
-                android:layout_width="wrap_content"
+                <TextView
+                    android:id="@+id/prerequisites"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hack"
+                    android:text="@string/prerequisites_header"
+                    android:textStyle="bold" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/prerequisites_recycler_view"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <!--Corequisites -->
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/hack"
-                android:text="@string/corequisites_header"
-                android:textStyle="bold" />
+                android:layout_gravity="fill_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/corequisties"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/hack"
+                    android:text="@string/corequisites_header"
+                    android:textStyle="bold" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/course_corequisties_rv"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
         </LinearLayout>
 
         <!-- Sections -->
@@ -71,15 +106,21 @@
             android:layout_height="wrap_content"
             android:layout_gravity="fill_horizontal"
             android:orientation="vertical"
-            android:padding="24dp"
+            android:padding="10dp"
             android:weightSum="4">
 
-            <android.support.v7.widget.AppCompatTextView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/hack"
                 android:text="@string/section_header"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/course_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

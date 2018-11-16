@@ -18,4 +18,10 @@
     <style name="DaysHeader" parent="@style/DaysRow">
         <item name="android:background">@drawable/cell_with_border</item>
     </style>
+    <style name="HeaderCell" parent="@style/AppTheme">
+        <item name="android:background">@drawable/cell_with_border</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

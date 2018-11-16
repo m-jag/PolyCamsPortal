@@ -15,7 +15,7 @@ public class Schedule {
             return Collections.emptyList();
         }
 
-        // Temporary object to avoid reallocating a schedule for each product
+        // Temporary object to avoid reallocating a fragment_schedule for each product
         Schedule current = new Schedule(Arrays.asList(
             new CourseSection[courses.size()]));
         for (int i = 0; i < courses.size(); i++) {
@@ -67,7 +67,7 @@ public class Schedule {
     }
 
     /**
-     * Determines whether any sections in this schedule overlap.
+     * Determines whether any sections in this fragment_schedule overlap.
      * <p>
      * TODO Return a message describing which sections overlap?
      *

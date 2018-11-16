@@ -19,6 +19,7 @@
     <string name="cancel_button">Cancel</string>
 
     <!-- Schedule Headers -->
+    <string name="schedule_title">Schedule</string>
     <string name="time_header">Time</string>
     <string name="course_header">Course</string>
     <string name="room_header">Room</string>
@@ -26,6 +27,7 @@
     <string name="day_header">Days</string>
 
     <!--Course Info Headers -->
+    <string name="course_name">Course</string>
     <string name="department_header">Department</string>
     <string name="prerequisites_header">Prerequisites</string>
     <string name="corequisites_header">Corequisites</string>
