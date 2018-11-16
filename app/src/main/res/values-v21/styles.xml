@@ -28,4 +28,10 @@
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="CourseInfoItem">
+        <item name="android:fontFamily">@font/hack</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 </resources>

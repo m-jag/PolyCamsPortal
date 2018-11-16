@@ -29,10 +29,11 @@
     <string name="day_header">Days</string>
 
     <!--Course Info Headers -->
-    <string name="course_name">Course</string>
-    <string name="department_header">Department</string>
-    <string name="prerequisites_header">Prerequisites</string>
-    <string name="corequisites_header">Corequisites</string>
-    <string name="section_header">Section</string>
+    <string name="course_name">Course : </string>
+    <string name="department_header">Department : </string>
+    <string name="prerequisites_header">Prerequisites : </string>
+    <string name="corequisites_header">Corequisites : </string>
+    <string name="days_header">Days : </string>
+    <string name="section_header">Section : </string>
 
 </resources>

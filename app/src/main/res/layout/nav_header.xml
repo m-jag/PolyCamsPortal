@@ -17,11 +17,16 @@
         android:layout_height="wrap_content"
         android:paddingTop="8dp"
         android:text="Poly Cams Portal"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_light"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
     <TextView
+        android:id="@+id/username_header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/background_light"
         android:paddingTop="8dp"
+        android:textStyle="italic"
         android:text="User"/>
 
 </LinearLayout>

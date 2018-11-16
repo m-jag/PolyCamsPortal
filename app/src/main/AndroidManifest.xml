@@ -29,6 +29,5 @@
         <activity android:name="edu.floridapoly.polycamsportal.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name="edu.floridapoly.polycamsportal.SettingsActivity"></activity>
     </application>
 </manifest>
