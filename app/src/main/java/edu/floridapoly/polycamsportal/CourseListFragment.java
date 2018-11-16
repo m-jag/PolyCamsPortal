@@ -1,6 +1,5 @@
 package edu.floridapoly.polycamsportal;
 
-import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -10,8 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-import edu.floridapoly.polycamsportal.schedule.Course;
-import edu.floridapoly.polycamsportal.util.ScheduleItem;
 
 import java.util.ArrayList;
 

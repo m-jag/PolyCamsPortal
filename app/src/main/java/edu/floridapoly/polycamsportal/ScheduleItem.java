@@ -1,4 +1,4 @@
-package edu.floridapoly.polycamsportal.util;
+package edu.floridapoly.polycamsportal;
 
 public class ScheduleItem {
     private String title;
