@@ -1,19 +1,25 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:orientation="vertical"
-        android:padding="24dp"
-        android:weightSum="4">
+    android:padding="24dp"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+        <TextView
+            android:id="@+id/settings_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:padding="10dp"
+            />
 
         <Button
+            android:id="@+id/color_settings_btn"
+            android:layout_below="@id/settings_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/login_view_margin"
@@ -22,11 +28,12 @@
             android:textColor="@color/white" />
 
         <Button
+            android:id="@+id/font_size_btn"
+            android:layout_below="@id/color_settings_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/login_view_margin"
             android:background="@drawable/button_bg"
             android:text="@string/font_size_button"
             android:textColor="@color/white" />
-    </LinearLayout>
-</FrameLayout>
+</RelativeLayout>

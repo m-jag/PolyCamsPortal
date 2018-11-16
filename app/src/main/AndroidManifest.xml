@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="edu.floridapoly.polycamsportal">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.floridapoly.polycamsportal">
 
     <supports-screens
         android:largeScreens="true"
@@ -8,6 +9,8 @@
         android:smallScreens="true"
         android:xlargeScreens="true"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,19 +18,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="edu.floridapoly.polycamsportal.MainActivity">
+        <activity android:name="edu.floridapoly.polycamsportal.LoginActivity"
+            tools:ignore="ExtraText">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="edu.floridapoly.polycamsportal.ScheduleActivity">
+        <activity android:name="edu.floridapoly.polycamsportal.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name="edu.floridapoly.polycamsportal.SettingsActivity"></activity>
     </application>
-
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-
 </manifest>

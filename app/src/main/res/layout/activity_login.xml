@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".LoginActivity">
 
     <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/AppTitle"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:fontFamily="@font/hack"
         android:padding="48dp"
         android:paddingTop="24dp"
@@ -18,6 +19,7 @@
         android:textStyle="bold"/>
 
     <LinearLayout
+        android:layout_below="@id/AppTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -52,14 +54,5 @@
             android:background="@drawable/button_bg"
             android:text="@string/login_button"
             android:textColor="@color/white"/>
-
-        <Button
-            android:id="@+id/view_schedule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/login_view_margin"
-            android:background="@drawable/button_bg"
-            android:text="@string/schedule_button"
-            android:textColor="@color/white"/>
     </LinearLayout>
-</LinearLayout>
+</RelativeLayout>
