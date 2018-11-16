@@ -23,6 +23,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
+    public static final String USERNAME = "USERNAME";
     private String username = "Username";
     private DrawerLayout drawer;
 
@@ -31,8 +32,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment);
 
-        Intent intent = getIntent();
-        username = intent.getStringExtra("username");
+        Bundle extras = getIntent().getExtras();
+
+        if (extras != null) {
+            username = extras.getString(USERNAME);
+        }
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -76,6 +80,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_logout:
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                intent.putExtra(LoginActivity.ACTION, LoginActivity.LOGOUT);
                 startActivity(intent);
                 break;
         }
