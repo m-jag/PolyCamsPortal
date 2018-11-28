@@ -2,6 +2,7 @@
     <string name="app_name">PolyCamsPortal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <!-- Login Screen -->
     <string name="title">Poly Cams Portal</string>
     <string name="username_hint">Username</string>
