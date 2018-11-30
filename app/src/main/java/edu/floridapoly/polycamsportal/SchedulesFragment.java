@@ -47,8 +47,8 @@ public class SchedulesFragment extends Fragment {
 
     private void updateUI() {
         ArrayList<ScheduleItem> schedules = new ArrayList<ScheduleItem>();
-        schedules.add(new ScheduleItem("Schedule 1"));
-        schedules.add(new ScheduleItem("Schedule 2"));
+        schedules.add(new ScheduleItem("Schedule 1", "user"));
+        schedules.add(new ScheduleItem("Schedule 2", "user"));
 
         mAdapter = new SchedulesFragment.ScheduleAdapter(schedules);
         mScheduleRecyclerView.setAdapter(mAdapter);

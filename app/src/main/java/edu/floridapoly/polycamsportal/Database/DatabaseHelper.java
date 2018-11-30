@@ -1,4 +1,4 @@
-package edu.floridapoly.polycamsportal.util;
+package edu.floridapoly.polycamsportal.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,10 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import edu.floridapoly.polycamsportal.Database.CourseItem;
-import edu.floridapoly.polycamsportal.Database.ScheduleItem;
-import edu.floridapoly.polycamsportal.Database.UserItem;
-import edu.floridapoly.polycamsportal.schedule.Schedule;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "DatabaseHelper";

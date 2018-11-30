@@ -48,11 +48,11 @@ public class CourseListFragment extends Fragment {
 
     private void updateUI() {
         ArrayList<CourseItem> courses = new ArrayList<>();
-        courses.add(new CourseItem("Mobile Device Applications", "08:00", "1026", "Dr. Topsakal"));
-        courses.add(new CourseItem("Computer Security", "02:00", "1032", "Dr. Al-Nashif"));
-        courses.add(new CourseItem("Machine Learning", "03:00", "1002", "Dr. Samarah"));
-        courses.add(new CourseItem("Network Security", "04:00", "1006", "Dr. Akbas"));
-        courses.add(new CourseItem("Ethical Hacking", "05:00", "1014", "Dr. Patel"));
+        courses.add(new CourseItem("Mobile Device Applications", "08:00", "08:00", "1026", "Dr. Topsakal"));
+        courses.add(new CourseItem("Computer Security", "02:00", "08:00","1032", "Dr. Al-Nashif"));
+        courses.add(new CourseItem("Machine Learning", "03:00", "08:00","1002", "Dr. Samarah"));
+        courses.add(new CourseItem("Network Security", "04:00", "08:00","1006", "Dr. Akbas"));
+        courses.add(new CourseItem("Ethical Hacking", "05:00", "08:00","1014", "Dr. Patel"));
 
         mAdapter = new CourseAdapter(courses);
         mCourseRecyclerView.setAdapter(mAdapter);
@@ -81,7 +81,7 @@ public class CourseListFragment extends Fragment {
         public void bind(CourseItem course) {
             mCourse = course;
             mCourse = course;
-            mTimeTextView.setText(mCourse.getTime());
+            mTimeTextView.setText(mCourse.getStartTime());
             mClassNameTextView.setText(mCourse.getTitle());
             mRoomTextView.setText(mCourse.getRoom());
             mProfessorTextView.setText(mCourse.getProfessor());
