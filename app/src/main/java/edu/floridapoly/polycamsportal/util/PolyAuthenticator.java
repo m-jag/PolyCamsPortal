@@ -1,13 +1,13 @@
 package edu.floridapoly.polycamsportal.util;
 
-import android.content.res.Resources;
 import android.util.Log;
-import edu.floridapoly.polycamsportal.R;
 
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 
 public final class PolyAuthenticator extends Authenticator {
+
+    public static final String API_DOMAIN = "poly-cams-scraper.herokuapp.com";
 
     private static final String TAG =
         PolyAuthenticator.class.getCanonicalName();
@@ -43,26 +43,31 @@ public final class PolyAuthenticator extends Authenticator {
 
     @Override
     protected PasswordAuthentication getPasswordAuthentication() {
-        String scheme = getRequestingScheme();
-        String host = getRequestingHost();
-
         // Only send authentication when using HTTPS
-        if (!scheme.equals("https")) {
-            Log.w(TAG, String.format(
-                "Authentication requested for host %s using scheme %s. " +
-                    "Authentication is only allowed via HTTPS.",
-                host, scheme));
+        String protocol = getRequestingProtocol();
+        if (!protocol.equals("https")) {
+            Log.w(TAG,
+                "Authentication requested over protocol: " + protocol + ". " +
+                "Authentication will only be sent over HTTPS.");
+            return null;
+        }
+
+        // Only Basic authentication is supported
+        String scheme = getRequestingScheme();
+        if (!scheme.equals("Basic")) {
+            Log.w(TAG, "Authentication scheme not supported: " + scheme);
             return null;
         }
 
         // Only give the credentials to the API domain. Give other domains no
         // authentication.
-        if (host.equals(Resources.getSystem().getString(R.string.apiDomain))) {
+//        if (host.equals(Resources.getSystem().getString(R.string.api_domain)) {
+        String host = getRequestingHost();
+        if (host.equals(API_DOMAIN)) {
             return apiAuth;
         } else {
-            Log.w(TAG, String.format(
-                "Authentication requested for unknown host %s.",
-                host));
+            Log.w(TAG,
+                "Authentication requested for unknown host: " + host);
             return null;
         }
     }

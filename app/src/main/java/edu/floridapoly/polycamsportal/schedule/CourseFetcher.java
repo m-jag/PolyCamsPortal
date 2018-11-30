@@ -5,6 +5,7 @@ import android.net.Uri;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.floridapoly.polycamsportal.R;
+import edu.floridapoly.polycamsportal.util.PolyAuthenticator;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -29,7 +30,7 @@ public final class CourseFetcher {
     public Map<String, Integer> fetchTerms() throws IOException {
         URL url = new URL(new Uri.Builder()
             .scheme("https")
-            .authority(Resources.getSystem().getString(R.string.apiDomain))
+            .authority(PolyAuthenticator.API_DOMAIN)
             .path("terms")
             .build()
             .toString());
@@ -58,7 +59,7 @@ public final class CourseFetcher {
     public  List<Course> fetchCourses(int term) throws IOException {
         URL url = new URL(new Uri.Builder()
             .scheme("https")
-            .authority(Resources.getSystem().getString(R.string.apiDomain))
+            .authority(PolyAuthenticator.API_DOMAIN)
             .path("courses")
             .appendQueryParameter("term", String.valueOf(term))
             .build()
