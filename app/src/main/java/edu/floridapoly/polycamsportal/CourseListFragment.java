@@ -9,17 +9,31 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import edu.floridapoly.polycamsportal.Database.CourseItem;
 
 import java.util.ArrayList;
 
 public class CourseListFragment extends Fragment {
     private RecyclerView mCourseRecyclerView;
     private CourseAdapter mAdapter;
+    public static final String USERNAME = "USERNAME";
+    private String username = "Username";
+    public static final String SCHEDULENAME = "SCHEDULENAME";
+    private String schedulename = "ScheduleName";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_schedule, container, false);
+
+        Bundle extras = this.getArguments();
+
+        if (extras != null) {
+            username = extras.getString(USERNAME);
+            schedulename = extras.getString(SCHEDULENAME);
+        }
+
+        // TODO: Pull User Schedules from DB
 
         TextView title = (TextView) view.findViewById(R.id.schedule_title);
         title.setText("Schedule");
@@ -33,12 +47,12 @@ public class CourseListFragment extends Fragment {
     }
 
     private void updateUI() {
-        ArrayList<ScheduleItem> courses = new ArrayList<>();
-        courses.add(new ScheduleItem("Mobile Device Applications", "08:00", "1026", "Dr. Topsakal"));
-        courses.add(new ScheduleItem("Computer Security", "02:00", "1032", "Dr. Al-Nashif"));
-        courses.add(new ScheduleItem("Machine Learning", "03:00", "1002", "Dr. Samarah"));
-        courses.add(new ScheduleItem("Network Security", "04:00", "1006", "Dr. Akbas"));
-        courses.add(new ScheduleItem("Ethical Hacking", "05:00", "1014", "Dr. Patel"));
+        ArrayList<CourseItem> courses = new ArrayList<>();
+        courses.add(new CourseItem("Mobile Device Applications", "08:00", "1026", "Dr. Topsakal"));
+        courses.add(new CourseItem("Computer Security", "02:00", "1032", "Dr. Al-Nashif"));
+        courses.add(new CourseItem("Machine Learning", "03:00", "1002", "Dr. Samarah"));
+        courses.add(new CourseItem("Network Security", "04:00", "1006", "Dr. Akbas"));
+        courses.add(new CourseItem("Ethical Hacking", "05:00", "1014", "Dr. Patel"));
 
         mAdapter = new CourseAdapter(courses);
         mCourseRecyclerView.setAdapter(mAdapter);
@@ -47,7 +61,7 @@ public class CourseListFragment extends Fragment {
     private class CourseHolder extends RecyclerView.ViewHolder
         implements View.OnClickListener {
 
-        private ScheduleItem mCourse;
+        private CourseItem mCourse;
 
         private TextView mTimeTextView;
         private TextView mClassNameTextView;
@@ -64,7 +78,7 @@ public class CourseListFragment extends Fragment {
             mProfessorTextView = (TextView) itemView.findViewById(R.id.professor);
         }
 
-        public void bind(ScheduleItem course) {
+        public void bind(CourseItem course) {
             mCourse = course;
             mCourse = course;
             mTimeTextView.setText(mCourse.getTime());
@@ -84,9 +98,9 @@ public class CourseListFragment extends Fragment {
 
     private class CourseAdapter extends RecyclerView.Adapter<CourseHolder> {
 
-        private ArrayList<ScheduleItem> mCourses;
+        private ArrayList<CourseItem> mCourses;
 
-        public CourseAdapter(ArrayList<ScheduleItem> courses) {
+        public CourseAdapter(ArrayList<CourseItem> courses) {
             mCourses = courses;
         }
 
@@ -98,7 +112,7 @@ public class CourseListFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(CourseHolder holder, int position) {
-            ScheduleItem course = mCourses.get(position);
+            CourseItem course = mCourses.get(position);
             holder.bind(course);
         }
 

@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private static final String TAG = "MainActivity";
     public static final String USERNAME = "USERNAME";
     private String username = "Username";
+    private String schedulename = "ScheduleName";
     private DrawerLayout drawer;
 
     @Override
@@ -66,11 +67,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        Fragment fragment;
+        Bundle bundle;
         switch (item.getItemId())
         {
-            case R.id.nav_schedule:
+            case R.id.nav_schedules:
+                fragment = new SchedulesFragment();
+                bundle = new Bundle();
+                bundle.putString(SchedulesFragment.USERNAME, username);
+                fragment.setArguments(bundle);
                 getSupportFragmentManager().beginTransaction()
-                    .add(R.id.fragment_container, new CourseListFragment())
+                    .add(R.id.fragment_container, fragment)
+                    .commit();
+                break;
+            case R.id.nav_schedule:
+                fragment = new CourseListFragment();
+                bundle = new Bundle();
+                // TODO: Modify to be favorite schedule
+                String favSchedule = "schedule";
+                bundle.putString(CourseListFragment.USERNAME, username);
+                bundle.putString(CourseListFragment.SCHEDULENAME, favSchedule);
+                fragment.setArguments(bundle);
+                getSupportFragmentManager().beginTransaction()
+                    .add(R.id.fragment_container, fragment)
                     .commit();
                 break;
             case R.id.nav_settings:
