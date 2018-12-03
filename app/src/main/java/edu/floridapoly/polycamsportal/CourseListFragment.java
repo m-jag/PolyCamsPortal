@@ -4,20 +4,23 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 import edu.floridapoly.polycamsportal.Database.CourseItem;
+import edu.floridapoly.polycamsportal.Database.DatabaseHelper;
+import edu.floridapoly.polycamsportal.Database.UserItem;
 
 import java.util.ArrayList;
 
 public class CourseListFragment extends Fragment {
+    private static final String TAG = "CourseListFragment";
     private RecyclerView mCourseRecyclerView;
     private CourseAdapter mAdapter;
     public static final String USERNAME = "USERNAME";
-    private String username = "Username";
     public static final String SCHEDULENAME = "SCHEDULENAME";
     private String schedulename = "ScheduleName";
 
@@ -26,17 +29,58 @@ public class CourseListFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_schedule, container, false);
 
+        UserItem currentUser = null;
         Bundle extras = this.getArguments();
 
+        String uname = "";
         if (extras != null) {
-            username = extras.getString(USERNAME);
+            uname = extras.getString(USERNAME);
+            currentUser = ((MainActivity) getActivity()).myDb.getUser(uname);
             schedulename = extras.getString(SCHEDULENAME);
         }
 
         // TODO: Pull User Schedules from DB
+<<<<<<< Updated upstream
+=======
+        if (currentUser == null)
+        {
+            showMessage("Error", "No User (" + uname + ") found");
+            // Logout
+        }
+        else {
+            if (schedulename == null) {
+                schedulename = "Schedule";
+            }
+            if (schedulename != "") {
+                Cursor courseCursor = ((MainActivity) getActivity()).myDb.getCourseList(currentUser.getName(),
+                    schedulename);
+                if (courseCursor.getCount() == 0) {
+                    //Pull schedule
+                    //Else no schedule for user ¯\_(ツ)_/¯
+                    //Registering is still being worked on screen?
+                    Log.e(TAG, currentUser.getName() + " " + (currentUser.getFavoriteSchedule() != null ? currentUser
+                        .getFavoriteSchedule(): "None"));
+
+                    showMessage("Error", "Nothing found");
+                } else {
+                    ArrayList<CourseItem> courses = new ArrayList<>();
+                    while (courseCursor.moveToNext()) {
+                        courses.add(new CourseItem(
+                            courseCursor.getString(0), // name
+                            courseCursor.getString(1),// starttime
+                            courseCursor.getString(2), // endtime
+                            courseCursor.getString(3), // professor
+                            courseCursor.getString(4))); // room**/
+                    }
+                    mAdapter = new CourseAdapter(courses);
+                }
+            }
+        }
+
+>>>>>>> Stashed changes
 
         TextView title = (TextView) view.findViewById(R.id.schedule_title);
-        title.setText("Schedule");
+        title.setText(schedulename);
 
         mCourseRecyclerView = (RecyclerView) view.findViewById(R.id.courses_recycler_view);
         mCourseRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -47,14 +91,6 @@ public class CourseListFragment extends Fragment {
     }
 
     private void updateUI() {
-        ArrayList<CourseItem> courses = new ArrayList<>();
-        courses.add(new CourseItem("Mobile Device Applications", "08:00", "08:00", "1026", "Dr. Topsakal"));
-        courses.add(new CourseItem("Computer Security", "02:00", "08:00","1032", "Dr. Al-Nashif"));
-        courses.add(new CourseItem("Machine Learning", "03:00", "08:00","1002", "Dr. Samarah"));
-        courses.add(new CourseItem("Network Security", "04:00", "08:00","1006", "Dr. Akbas"));
-        courses.add(new CourseItem("Ethical Hacking", "05:00", "08:00","1014", "Dr. Patel"));
-
-        mAdapter = new CourseAdapter(courses);
         mCourseRecyclerView.setAdapter(mAdapter);
     }
 

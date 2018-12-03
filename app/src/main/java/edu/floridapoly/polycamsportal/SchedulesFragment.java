@@ -1,23 +1,28 @@
 package edu.floridapoly.polycamsportal;
 
+import android.database.Cursor;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import edu.floridapoly.polycamsportal.Database.CourseItem;
 import edu.floridapoly.polycamsportal.Database.ScheduleItem;
+import edu.floridapoly.polycamsportal.Database.UserItem;
 
 import java.util.ArrayList;
 
 public class SchedulesFragment extends Fragment {
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "SchedulesFragment";
     public static final String USERNAME = "USERNAME";
     private String username = "Username";
 
@@ -30,12 +35,31 @@ public class SchedulesFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_schedules, container, false);
 
         Bundle extras = this.getArguments();
+        UserItem currentUser = null;
 
         if (extras != null) {
             username = extras.getString(USERNAME);
+            currentUser = ((MainActivity) getActivity()).myDb.getUser(username);
         }
 
-        // TODO: Pull User Schedules from DB
+        Cursor scheduleCursor = ((MainActivity) getActivity()).myDb.getSchedulesUser(currentUser.getName());
+        if (scheduleCursor.getCount() == 0) {
+            //Pull schedule
+            //Else no schedule for user ¯\_(ツ)_/¯
+            //Registering is still being worked on screen?
+            Log.e(TAG, currentUser.getName());
+
+            showMessage("Error", "Nothing found");
+        } else {
+            ArrayList<ScheduleItem> schedules = new ArrayList<>();
+            StringBuffer buffer = new StringBuffer();
+            while (scheduleCursor.moveToNext()) {
+                schedules.add(new ScheduleItem(
+                    scheduleCursor.getString(2), // title
+                    scheduleCursor.getString(1))); // user
+            }
+            mAdapter = new SchedulesFragment.ScheduleAdapter(schedules);
+        }
 
         mScheduleRecyclerView = (RecyclerView) view.findViewById(R.id.schedules_recycler_view);
         mScheduleRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
@@ -46,11 +70,6 @@ public class SchedulesFragment extends Fragment {
     }
 
     private void updateUI() {
-        ArrayList<ScheduleItem> schedules = new ArrayList<ScheduleItem>();
-        schedules.add(new ScheduleItem("Schedule 1", "user"));
-        schedules.add(new ScheduleItem("Schedule 2", "user"));
-
-        mAdapter = new SchedulesFragment.ScheduleAdapter(schedules);
         mScheduleRecyclerView.setAdapter(mAdapter);
     }
 
@@ -79,10 +98,9 @@ public class SchedulesFragment extends Fragment {
         public void onClick(View view) {
             Fragment fragment = new CourseListFragment();
             Bundle bundle = new Bundle();
-            // TODO: Modify to be favorite schedule
-            String favSchedule = "schedule";
+            String selectedSchedule = mSchedule.getTitle();
             bundle.putString(CourseListFragment.USERNAME, username);
-            bundle.putString(CourseListFragment.SCHEDULENAME, favSchedule);
+            bundle.putString(CourseListFragment.SCHEDULENAME, selectedSchedule);
             fragment.setArguments(bundle);
             getActivity().getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container, fragment)
@@ -118,5 +136,13 @@ public class SchedulesFragment extends Fragment {
         public int getItemCount() {
             return mSchedules.size();
         }
+    }
+
+    public void showMessage(String title,String Message){
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setCancelable(true);
+        builder.setTitle(title);
+        builder.setMessage(Message);
+        builder.show();
     }
 }

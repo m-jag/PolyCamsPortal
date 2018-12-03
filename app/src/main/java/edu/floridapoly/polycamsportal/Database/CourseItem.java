@@ -9,10 +9,10 @@ public class CourseItem {
 
     @SuppressWarnings("unused")
     public CourseItem() {
-        this("Class", "00:00", "00:00","0000", "John Doe");
+        this("Class", "00:00", "00:00","John Doe", "0000");
     }
 
-    public CourseItem(String title, String starttime, String endtime, String room, String professor) {
+    public CourseItem(String title, String starttime, String endtime, String professor, String room) {
         this.title = title;
         this.starttime = starttime;
         this.endtime = endtime;

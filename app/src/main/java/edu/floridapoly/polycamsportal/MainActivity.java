@@ -18,14 +18,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+<<<<<<< Updated upstream
+=======
+import edu.floridapoly.polycamsportal.Database.CourseItem;
+import edu.floridapoly.polycamsportal.Database.DatabaseHelper;
+import edu.floridapoly.polycamsportal.Database.ScheduleItem;
+import edu.floridapoly.polycamsportal.Database.UserItem;
+>>>>>>> Stashed changes
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
     public static final String USERNAME = "USERNAME";
     private String username = "Username";
-    private String schedulename = "ScheduleName";
     private DrawerLayout drawer;
 
     @Override
@@ -37,6 +44,34 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         if (extras != null) {
             username = extras.getString(USERNAME);
+        }
+
+
+        //Add filler data to the database
+        ArrayList<CourseItem> courses = new ArrayList<CourseItem>();
+        courses.add(new CourseItem("Mobile Device Applications", "08:00", "08:50", "1026", "Dr. Topsakal"));
+        courses.add(new CourseItem("Computer Security", "09:00", "09:50","1032", "Dr. Al-Nashif"));
+        courses.add(new CourseItem("Machine Learning", "10:00", "10:50","1002", "Dr. Samarah"));
+        courses.add(new CourseItem("Network Security", "11:00", "11:50","1006", "Dr. Akbas"));
+        courses.add(new CourseItem("Ethical Hacking", "12:00", "12:50","1014", "Dr. Patel"));
+        for (CourseItem c: courses) {
+            myDb.insertCourse(c);
+        }
+
+        UserItem user;
+        //Add user
+        if (!myDb.userExists(username))
+        {
+            user = new UserItem(username, null);
+            myDb.insertUser(user);
+            ScheduleItem sample_schedule = new ScheduleItem("Sample Schedule", user.getName());
+            myDb.insertSchedule(sample_schedule);
+            user = new UserItem(user.getName(), sample_schedule.getName());
+            myDb.updateUser(user);
+            for (CourseItem c: courses.subList(0, 5))
+            {
+                myDb.insertCourseList(user, sample_schedule, c);
+            }
         }
 
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -56,10 +91,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toggle.syncState();
 
         FragmentManager fm = getSupportFragmentManager();
+        Fragment fragment = new CourseListFragment();
+        Bundle bundle = new Bundle();
+        String favSchedule = "";
+        if (myDb.getUser(username) != null)
+        {
+            favSchedule = myDb.getUser(username).getFavoriteSchedule();
+        }
+        bundle.putString(CourseListFragment.USERNAME, username);
+        bundle.putString(CourseListFragment.SCHEDULENAME, favSchedule);
+        fragment.setArguments(bundle);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                .add(R.id.fragment_container, new CourseListFragment())
+                .add(R.id.fragment_container, fragment)
                 .commit();
             navigationView.setCheckedItem(R.id.nav_schedule);
         }
@@ -84,7 +129,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = new CourseListFragment();
                 bundle = new Bundle();
                 // TODO: Modify to be favorite schedule
-                String favSchedule = "schedule";
+                String favSchedule = "";
+                if (myDb.getUser(username) != null)
+                {
+                    favSchedule = myDb.getUser(username).getFavoriteSchedule();
+                }
                 bundle.putString(CourseListFragment.USERNAME, username);
                 bundle.putString(CourseListFragment.SCHEDULENAME, favSchedule);
                 fragment.setArguments(bundle);
