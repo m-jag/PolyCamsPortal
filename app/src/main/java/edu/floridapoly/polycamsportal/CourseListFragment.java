@@ -1,9 +1,12 @@
 package edu.floridapoly.polycamsportal;
 
+import android.database.Cursor;
 import android.os.Bundle;
+import android.support.annotation.ArrayRes;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.style.TtsSpan;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +18,8 @@ import edu.floridapoly.polycamsportal.Database.DatabaseHelper;
 import edu.floridapoly.polycamsportal.Database.UserItem;
 
 import java.util.ArrayList;
+import java.util.Observable;
+import java.util.Observer;
 
 public class CourseListFragment extends Fragment {
     private static final String TAG = "CourseListFragment";
@@ -40,19 +45,19 @@ public class CourseListFragment extends Fragment {
         }
 
         // TODO: Pull User Schedules from DB
-<<<<<<< Updated upstream
-=======
         if (currentUser == null)
         {
-            showMessage("Error", "No User (" + uname + ") found");
+            //showMessage("Error", "No User (" + uname + ") found");
             // Logout
         }
         else {
             if (schedulename == null) {
                 schedulename = "Schedule";
             }
+
+            DatabaseHelper myDb = ((MainActivity) getActivity()).myDb;
             if (schedulename != "") {
-                Cursor courseCursor = ((MainActivity) getActivity()).myDb.getCourseList(currentUser.getName(),
+                Cursor courseCursor = myDb.getCourseList(currentUser.getName(),
                     schedulename);
                 if (courseCursor.getCount() == 0) {
                     //Pull schedule
@@ -61,7 +66,7 @@ public class CourseListFragment extends Fragment {
                     Log.e(TAG, currentUser.getName() + " " + (currentUser.getFavoriteSchedule() != null ? currentUser
                         .getFavoriteSchedule(): "None"));
 
-                    showMessage("Error", "Nothing found");
+                    //showMessage("Error", "Nothing found");
                 } else {
                     ArrayList<CourseItem> courses = new ArrayList<>();
                     while (courseCursor.moveToNext()) {
@@ -70,14 +75,12 @@ public class CourseListFragment extends Fragment {
                             courseCursor.getString(1),// starttime
                             courseCursor.getString(2), // endtime
                             courseCursor.getString(3), // professor
-                            courseCursor.getString(4))); // room**/
+                            courseCursor.getString(4))); // room
                     }
                     mAdapter = new CourseAdapter(courses);
                 }
             }
         }
-
->>>>>>> Stashed changes
 
         TextView title = (TextView) view.findViewById(R.id.schedule_title);
         title.setText(schedulename);
@@ -132,7 +135,7 @@ public class CourseListFragment extends Fragment {
         }
     }
 
-    private class CourseAdapter extends RecyclerView.Adapter<CourseHolder> {
+    private class CourseAdapter extends RecyclerView.Adapter<CourseHolder> implements Observer {
 
         private ArrayList<CourseItem> mCourses;
 
@@ -155,6 +158,11 @@ public class CourseListFragment extends Fragment {
         @Override
         public int getItemCount() {
             return mCourses.size();
+        }
+
+        @Override
+        public void update(Observable o, Object courses) {
+            mCourses = (ArrayList<CourseItem>) courses;
         }
     }
 }

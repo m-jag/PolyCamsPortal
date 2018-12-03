@@ -91,11 +91,11 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     }
 
-
     private void authenticate(String username, String password)
     {
         this.username = username;
         this.password = password;
+        PolyAuthenticator.setAsDefault();
         PolyAuthenticator pAuth = PolyAuthenticator.getInstance();
         pAuth.setApiAuth(username, password);
     }

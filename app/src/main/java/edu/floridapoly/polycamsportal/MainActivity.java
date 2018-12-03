@@ -2,6 +2,7 @@ package edu.floridapoly.polycamsportal;
 
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -13,27 +14,33 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-<<<<<<< Updated upstream
-=======
 import edu.floridapoly.polycamsportal.Database.CourseItem;
 import edu.floridapoly.polycamsportal.Database.DatabaseHelper;
 import edu.floridapoly.polycamsportal.Database.ScheduleItem;
 import edu.floridapoly.polycamsportal.Database.UserItem;
->>>>>>> Stashed changes
+import edu.floridapoly.polycamsportal.schedule.Course;
+import edu.floridapoly.polycamsportal.schedule.CourseFetcher;
+import edu.floridapoly.polycamsportal.schedule.CourseSession;
 
+import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "MainActivity";
     public static final String USERNAME = "USERNAME";
     private String username = "Username";
     private DrawerLayout drawer;
+
+    public final DatabaseHelper myDb = new DatabaseHelper(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,33 +53,49 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             username = extras.getString(USERNAME);
         }
 
+        new AsyncTask<Void, Void, Void>() {
 
-        //Add filler data to the database
-        ArrayList<CourseItem> courses = new ArrayList<CourseItem>();
-        courses.add(new CourseItem("Mobile Device Applications", "08:00", "08:50", "1026", "Dr. Topsakal"));
-        courses.add(new CourseItem("Computer Security", "09:00", "09:50","1032", "Dr. Al-Nashif"));
-        courses.add(new CourseItem("Machine Learning", "10:00", "10:50","1002", "Dr. Samarah"));
-        courses.add(new CourseItem("Network Security", "11:00", "11:50","1006", "Dr. Akbas"));
-        courses.add(new CourseItem("Ethical Hacking", "12:00", "12:50","1014", "Dr. Patel"));
-        for (CourseItem c: courses) {
-            myDb.insertCourse(c);
-        }
+            @Override
+            protected Void doInBackground(Void... voids) {
+                List<Course> fetched;
+                try {
+                    fetched = new CourseFetcher().fetchCourses(28);
+                    Log.d(TAG, "Fetched " + fetched.size() + " courses");
+                } catch (IOException ex) {
+                    Log.e(TAG, "Failed to fetch courses", ex);
+                    return null;
+                }
 
-        UserItem user;
-        //Add user
-        if (!myDb.userExists(username))
-        {
-            user = new UserItem(username, null);
-            myDb.insertUser(user);
-            ScheduleItem sample_schedule = new ScheduleItem("Sample Schedule", user.getName());
-            myDb.insertSchedule(sample_schedule);
-            user = new UserItem(user.getName(), sample_schedule.getName());
-            myDb.updateUser(user);
-            for (CourseItem c: courses.subList(0, 5))
-            {
-                myDb.insertCourseList(user, sample_schedule, c);
+                ArrayList<CourseItem> courses = new ArrayList<>();
+                for (Course c : fetched) {
+                    CourseSession s = c.getSections().get(0).getSessions().get(0);
+                    courses.add(new CourseItem(c.getTitle(), s.getStartTime().toString(), s.getEndTime().toString(),
+                        s.getInstructor(), s.getRoom()));
+                }
+
+                for (CourseItem c: courses) {
+                    myDb.insertCourse(c);
+                }
+
+                UserItem user;
+                //Add user
+                if (!myDb.userExists(username))
+                {
+                    user = new UserItem(username, null);
+                    myDb.insertUser(user);
+                    ScheduleItem sample_schedule = new ScheduleItem("Sample Schedule", user.getName());
+                    myDb.insertSchedule(sample_schedule);
+                    user = new UserItem(user.getName(), sample_schedule.getName());
+                    myDb.updateUser(user);
+                    for (CourseItem c: courses.subList(0, 5))
+                    {
+                        myDb.insertCourseList(user, sample_schedule, c);
+                    }
+                }
+
+                return null;
             }
-        }
+        }.execute();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

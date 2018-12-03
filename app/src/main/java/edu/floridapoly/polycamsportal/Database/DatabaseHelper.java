@@ -6,6 +6,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import edu.floridapoly.polycamsportal.schedule.Schedule;
+
+import java.util.Observable;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String TAG = "DatabaseHelper";
@@ -85,7 +88,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+ COURSE_LIST_TABLE_NAME);
         onCreate(db);
     }
-
 
     public boolean insertUser(UserItem user) {
         if (userExists(user.getName()))

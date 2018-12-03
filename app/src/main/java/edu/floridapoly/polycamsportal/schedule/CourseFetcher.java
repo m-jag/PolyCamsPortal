@@ -2,6 +2,7 @@ package edu.floridapoly.polycamsportal.schedule;
 
 import android.content.res.Resources;
 import android.net.Uri;
+import android.util.Log;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import edu.floridapoly.polycamsportal.R;
@@ -61,6 +62,32 @@ public final class CourseFetcher {
             .scheme("https")
             .authority(PolyAuthenticator.API_DOMAIN)
             .path("courses")
+            .appendQueryParameter("term", String.valueOf(term))
+            .build()
+            .toString());
+
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("GET");
+        conn.connect();
+
+        int status = conn.getResponseCode();
+        List<Course> result = null;
+        if (status == 200) {
+            result = mapper.readValue(conn.getInputStream(),
+                new TypeReference<List<Course>>() {});
+        } else {
+            Log.e("CourseFetcher", "Error code " + status);
+        }
+
+        conn.disconnect();
+        return result;
+    }
+
+    public  List<Course> fetchUserCourses(int term) throws IOException {
+        URL url = new URL(new Uri.Builder()
+            .scheme("https")
+            .authority(PolyAuthenticator.API_DOMAIN)
+            .path("schedule")
             .appendQueryParameter("term", String.valueOf(term))
             .build()
             .toString());
